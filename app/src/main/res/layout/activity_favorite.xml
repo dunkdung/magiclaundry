@@ -4,7 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Favorite.FavoriteActivity">
-    <ListView android:layout_height="wrap_content" android:layout_width="match_parent"
-        tools:ignore="MissingConstraints" android:id="@+id/zzim_listview"/>
+    tools:context=".Favorite.FavoriteActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:text="찜 목록 리스트"
+        android:fontFamily="@font/reko"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:id="@+id/division"
+        android:background="@color/colorDivision"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></LinearLayout>
+    <ListView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/zzim_listview"/>
 </LinearLayout>

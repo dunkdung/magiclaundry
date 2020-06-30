@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Map.MapsActivity"/>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Map.MapsActivity" />
         <activity android:name=".Favorite.FavoriteActivity" />
         <activity android:name=".detailFragment.MarketInfo.WriteActivity" />
         <activity android:name=".Auth.JoinInfoActivity" />
@@ -36,13 +37,14 @@
              You can define the keys for the debug and release targets in src/debug/ and src/release/.
         -->
         <activity android:name=".detailFragment.detailActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
