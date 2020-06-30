@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".detailFragment.MarketInfo.WriteActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="세탁소 이름"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/title_area"/>
+
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/rating_area"
+        android:numStars="5"
+        android:stepSize="0.5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_area"/>
+
+    <EditText android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:id="@+id/text_input_area"
+        app:layout_constraintTop_toBottomOf="@id/rating_area"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:text="리뷰쓰기"
+        android:id="@+id/writing_button"
+        app:layout_constraintTop_toBottomOf="@id/text_input_area"
+        android:background="#92CFBF"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

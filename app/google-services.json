@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "537978464125",
+    "firebase_url": "https://magiclaundry-2a645.firebaseio.com",
+    "project_id": "magiclaundry-2a645",
+    "storage_bucket": "magiclaundry-2a645.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537978464125:android:4430adc1f15fec5cfb4e14",
+        "android_client_info": {
+          "package_name": "com.example.magiclaundry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537978464125-b0f5k1abs1msd5hrfkgq13j3nm6gb9ch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.magiclaundry",
+            "certificate_hash": "476e1cbc1d0155961d8026df4f385fbf3feb8081"
+          }
+        },
+        {
+          "client_id": "537978464125-d3n3u6u3kg1dopv3jciqkv1ektkvhar2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVogEbx7lk5klZsdnolhaJV3bwy-Wd4vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537978464125-d3n3u6u3kg1dopv3jciqkv1ektkvhar2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

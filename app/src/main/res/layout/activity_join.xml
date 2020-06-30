@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".Auth.JoinActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="이메일"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/join_email_area"/>
+
+    <EditText
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:hint="비밀번호"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/join_password_area"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@+id/join_email_area"/>
+
+    <Button
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/join_login_button"
+        app:layout_constraintTop_toBottomOf="@+id/join_password_area"
+        android:background="#92CFBF"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:text="회원가입"/>
+
+    <Button
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/google_login_button"
+        app:layout_constraintTop_toBottomOf="@+id/join_login_button"
+        android:background="@drawable/btn_signin_google"
+        android:textColor="#ffffff"
+        android:text="구글 로그인"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

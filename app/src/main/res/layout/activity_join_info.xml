@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".Auth.JoinInfoActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="닉네임"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/join_info_email_area"/>
+
+    <Button
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/join_info_login_button"
+        android:background="#92CFBF"
+        app:layout_constraintTop_toBottomOf="@+id/join_info_email_area"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:text="회원가입 완료"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
